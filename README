@@ -1,0 +1,6 @@
+Makefile for micro and macro C/C++ projects
+
+
+1) Get this : git clone https://github.com/progman/Makefile.git
+2) Make this: make x64 && ./test.sh
+3) Enjoy!
