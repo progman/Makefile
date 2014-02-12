@@ -9,7 +9,7 @@ function test1()
 
 	cd bin;
 
-	OUT="$(./exe)";
+	local OUT="$(./exe)";
 
 	if [ $(echo "${OUT}" | head -n 1) != "dll_f()" ] || [ $(echo "${OUT}" | tail -n 1) != "lib_f()" ];
 	then
